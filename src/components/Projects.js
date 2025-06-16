@@ -23,58 +23,57 @@ class Projects extends React.Component {
   render() {
     const spotlightProjects = {
       "No Man's Land": {
-        title: "no man's land",
+        title: "Satarthub-ai",
         desc:
-          "A third-person survival-mode game where you battle against time and space to return to Earth.",
-        techStack: "C# (UNITY)",
-        link: "https://github.com/slakh96/no-mans-land",
-        open: "https://gazijarin.itch.io/no-mans-land",
-        image: "/assets/nomansland.png"
+          "An application developed to connect passionate founders, help them open source their ideas and connect them to VCs",
+        techStack: "Javascript, ML",
+        link: "https://github.com/Johanabhishek/Starthub-ai",
+        open: "https://starthub-ai.vercel.app/",
+        image: "/assets/starthub.png"
       },
       Truth: {
-        title: "truth",
+        title: "fintraq",
         desc:
-          "A three.js simulation of the planet system revolving around a monolith.",
-        techStack: "JAVASCRIPT (THREE.JS)",
-        link: "https://github.com/gazijarin/truth",
-        open: "https://gazijarin.github.io/Truth/",
-        image: "/assets/truth.png"
+          "A full stack project to let you track your finances and help you become more financially efficient.",
+        techStack: "Javascript",
+        link: "https://github.com/Johanabhishek/Fintrack",
+        open: "https://fintrack-47ad.vercel.app/dashboard",
+        image: "/assets/fintraq.png"
       },
       "Tall Tales": {
-        title: "tall tales",
+        title: "trading signal generator powered by AI",
         desc:
-          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
-        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
-        link: "https://github.com/gazijarin/TallTales",
-        open: "https://talltales.herokuapp.com/",
-        image: "/assets/talltales.png"
+          "A trading signal generator using AI.",
+        techStack: "ML, jupyter notebook",
+        link: "https://github.com/Johanabhishek/AI-POWERED-STOCK-TRADING-SIGNAL",
+        open: "https://github.com/Johanabhishek/AI-POWERED-STOCK-TRADING-SIGNAL/blob/main/AI%20POWERED%20STOCK%20TRADING%20SIGNAL-checkpoint.ipynb", 
+        image: "/assets/signalgenerator.png"
       },
       Portfolio: {
-        title: "portfolio.js",
+        title: "News analyser with text-to-speech",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        link: "https://github.com/gazijarin/Portfolio.js",
-        open: "https://afternoon-ocean-92382.herokuapp.com/",
-        image: "/assets/portfolio.png"
+          "A news analyser with text to speech conversion model (in hindi)  in jupyter notebook",
+        techStack: "Python, jupyter notebook",
+        link: "https://github.com/Johanabhishek/news_sentiment_tts",
+        image: "/assets/tts.png"
       }
     };
     const projects = {
-      "TDSB Homework Management Interface": {
+      "HDFC BANK STOCK ANALYSIS": {
         desc:
-          "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-        techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-        link: "https://github.com/gazijarin/TDSBHomeworkManagement",
-        open: "https://tdsb-app.herokuapp.com/"
+          "A data science project to analyse the stock market of hdfc bank over two decades.",
+        techStack: "Python, machine learning.",
+        link: "https://github.com/Johanabhishek/HDFC-stock-analysis",
+        open: "https://github.com/Johanabhishek/HDFC-stock-analysis/blob/main/HDFC%20stock%20analysis.ipynb"
       },
-      "Adam A.I.": {
+      "ICICI BANK STOCK ANALYSIS.": {
         desc:
-          "A self-learning A.I. that learns to traverse through a complex maze using the genetic algorithm.",
-        techStack: "Javascript, HTML / CSS",
-        link: "https://github.com/gazijarin/adamai",
-        open: "https://gazijarin.github.io/AdamAI/"
+          "A data science project to analyse the stock market of ICICI bank over two decades.",
+        techStack: "Python, machine learning.",
+        link: "https://github.com/Johanabhishek/ICICI-Bank-stock-analysis",
+        open: "https://github.com/Johanabhishek/ICICI-Bank-stock-analysis/blob/main/ICICI%20BANK%20stock%20analysis%20.ipynb"
       },
-      "Distributed Logging and Monitoring System": {
+      /*"Distributed Logging and Monitoring System": {
         desc:
           "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
         techStack: "Node.js (Express.js), React.js, PostgreSQL",
@@ -101,7 +100,7 @@ class Projects extends React.Component {
         techStack: "Python",
         link: "https://github.com/gazijarin/stonehenge",
         open: ""
-      }
+      }*/
     };
 
     return (

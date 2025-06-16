@@ -19,27 +19,30 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>Software Development Engineer</b> at
-        <a href="https://www.aboutamazon.com/"> Amazon</a>, working in the AWS
-        sector under team Route 53. At the same time, I am undertaking a
-        part-time <b> Master's of Science</b> in <b>Software Engineering </b>at{" "}
-        <a href="https://www.ox.ac.uk/about">University of Oxford</a>.
+        I am currently a <b>final year Computer Science student</b> at
+        <a href="https://jntuacep.ac.in/"> JNTUA College of Engineering Pulivendula</a>, working on webapps with the 
+        integration of AI using machine learning models.{" "} 
+        
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in following the developments of
-        science. I also play a lot of video games. And make TikToks.
+        Outside of College, I'm interested in following the developments of
+        science, movies, geo politics, latest Tech advancements and music. I also play sports (mostly cricket). 
       </p>
     );
 
     const tech_stack = [
-      "Typescript",
       "Python",
       "React.js",
-      "Java",
-      "Javascript ES6+",
-      "C#"
+      "Javascript",
+      "Machine Learning",
+      "Deep Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Data Science",
+      "Data Analysis",
+      "Data Visualization",
     ];
 
     return (
@@ -64,7 +67,17 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+              <img alt="Gazi Jarin" src={"/assets/me4.jpg"} />
+            <style>
+              {`
+                .about-image img {
+                  width: 300px;
+                  height: 430px;
+                  object-fit: cover;
+                  border-radius: 15px;
+                }
+              `}
+            </style>
             </div>
           </div>
         </FadeInSection>
