@@ -8,7 +8,7 @@ export const blogPosts = [
     date: "2025-08-08",
     excerpt: "A controlled experiment reveals that some popular data augmentation techniques can actually harm your model's performance. Here’s what happened when I put them to the test.",
     content: `
-## So, Data Augmentation is Always a Good Idea, Right? I Decided to Check.
+## So, Data Augmentation is Always a Good Idea, Right? I Decided to Check. ##
 
 Anyone who's spent time in machine learning has heard the advice: if you want a better model, get more data. And if you can't get more data, you should augment what you have. It’s become a standard part of the playbook, something I've always taken as a given.
 
@@ -42,3 +42,4 @@ export const getPostById = (id) => {
 export const getAllPosts = () => {
   return blogPosts;
 };
+
