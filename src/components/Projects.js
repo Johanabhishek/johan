@@ -38,7 +38,7 @@ class Projects extends React.Component {
         techStack: "Javascript",
         link: "https://github.com/Johanabhishek/Fintrack",
         open: "https://fintrack-new.vercel.app/",
-        image: "/assets/fintraq.png"
+        image: "public/assets/Screenshot 2025-09-29 155145.png"
       },
       "Trading signals": {
         title: "trading signal generator powered by AI",
