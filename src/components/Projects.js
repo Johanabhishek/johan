@@ -22,7 +22,7 @@ class Projects extends React.Component {
   }
   render() {
     const spotlightProjects = {
-      "No Man's Land": {
+      "starthub": {
         title: "Satarthub-ai",
         desc:
           "An application developed to connect passionate founders, help them open source their ideas and connect them to VCs",
@@ -40,7 +40,7 @@ class Projects extends React.Component {
         open: "https://fintrack-new.vercel.app/",
         image: "/assets/fintraq.png"
       },
-      "Tall Tales": {
+      "Trading signals": {
         title: "trading signal generator powered by AI",
         desc:
           "A trading signal generator using AI.",
