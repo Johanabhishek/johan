@@ -37,7 +37,7 @@ class Projects extends React.Component {
           "A full stack project to let you track your finances and help you become more financially efficient.",
         techStack: "Javascript",
         link: "https://github.com/Johanabhishek/Fintrack",
-        open: "https://fintrack-47ad.vercel.app/dashboard",
+        open: "https://fintrack-new.vercel.app/",
         image: "/assets/fintraq.png"
       },
       "Tall Tales": {
